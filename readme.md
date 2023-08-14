@@ -1,7 +1,10 @@
 hacer una app que consuma una api sin node ni express
 curso js de one month
 
-debemos dejar que cada lenguaje haga lo que mejor sabe hacer, js jdinamico, html statico y css estilos, en esta app traigo daots de 2 apis y creo una tarjeta dinamica que se actualiza con los datos de la api de riki and morpi
+debemos dejar que cada lenguaje haga lo que mejor sabe hacer, js jdinamico, html statico y css estilos,
+en esta app traigo daots de 2 apis y creo una tarjeta dinamica que se actualiza con los datos de la api
+de riki and morpi, la pagina debe tener un menu de navegacion con un buscador y el cuerpo de la pagina cargar 
+las tarjetas con el contenido de la api                                                                                                                   
 
 
 portafolio con react api con vanilla y server con express(routing), css calc y variables
