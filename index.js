@@ -13,13 +13,13 @@ import rik from "./module.mjs";
       var hr = document.createElement('hr')
 
       var nombre = document.createElement('h1')
-          nombre.innerText = rik.results[i].name;
+          nombre.innerText = "Nombre: " + rik.results[i].name;
 
       var status = document.createElement('h2')
-          status.innerText = rik.results[i].status;
+          status.innerText = "Status: " + rik.results[i].status;
 
       var descripcion = document.createElement('p')
-          descripcion.innerText = rik.results[i].type;
+          descripcion.innerText = "Type: " + rik.results[i].type;
 
       box.appendChild(avatar)
       box.appendChild(hr)
