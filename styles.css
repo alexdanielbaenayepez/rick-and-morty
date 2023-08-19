@@ -37,9 +37,20 @@ hr {
   border: 1px solid #dfe1e5;
 }
 
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .box{
-  background: rebeccapurple;
-  width: 75px;
-  height: 100px;
-  margin: 10px;
+  background: transparent;
+  margin-bottom: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 6px;
+}
+
+p{
+  background: #7cff6f;
 }

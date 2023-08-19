@@ -8,3 +8,5 @@ let rik = await response.json(response)
 console.log(rik)
 
 export default rik;
+
+

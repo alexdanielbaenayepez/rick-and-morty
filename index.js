@@ -3,15 +3,38 @@ import rik from "./module.mjs";
     var root = document.getElementById("root");
 
     for (var i = 0; rik.results.length; i++){
+
+      var box = document.createElement('div');
+      box.className= 'box';
+
       var avatar = document.createElement("img")
-      avatar.src = rik.results[i].image;
-      root.appendChild(avatar)
+      avatar.src = rik.results[i].image
+
+      var hr = document.createElement('hr')
+
+      var nombre = document.createElement('h1')
+          nombre.innerText = rik.results[i].name;
+
+      var status = document.createElement('h2')
+          status.innerText = rik.results[i].status;
+
+      var descripcion = document.createElement('p')
+          descripcion.innerText = rik.results[i].type;
+
+      box.appendChild(avatar)
+      box.appendChild(hr)
+      box.appendChild(nombre)
+      box.appendChild(status)
+      box.appendChild(descripcion)
+      root.appendChild(box);
+
     }
 
 
 
 
 
+  //------------------------------------------------------------------------
 
 
 
@@ -20,23 +43,7 @@ import rik from "./module.mjs";
 
 
 
-
-
-
-
-
-
-
-
-  console.log()
-
-var box = document.createElement('div');
-  box.className= 'box';
-  root.appendChild(box);
-
-
-
-
+  
 
   // --------------------------------------------------------------------
 
