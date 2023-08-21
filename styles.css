@@ -20,6 +20,12 @@ stilos para el input type search
     max-width: 584px;
 */
 
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
  #search {
   color: #090808;
   border: 1px solid #dfe1e5;
