@@ -20,11 +20,11 @@ import rik from "./module.mjs";
       var nombre = document.createElement('h2')
           nombre.innerText = "Nombre: " + rik.results[i].name;
 
-      var status = document.createElement('h3')
+      var status = document.createElement('p')
           status.innerText = "Status: " + rik.results[i].status;
 
       var descripcion = document.createElement('p')
-          descripcion.innerText = "Type: " + rik.results[i].type;
+          descripcion.innerText = "Type: la imagen debe cubrir toda la tarjeta" + rik.results[i].type;
 
       box.appendChild(containerImagen)
       box.appendChild(hr)

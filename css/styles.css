@@ -1,37 +1,44 @@
-/*
-stilos para el input type search
+@import url('https://fonts.googleapis.com/css?family=Nobile:400,500|Open+Sans&display=swap');
 
-    background-color: #fff;
-    box-shadow: 0 1px 6px rgba(32,33,36,.28);
-    border-color: rgba(223,225,229,0);
+*{
+  margin: 0;
+}
 
-    or
+:root{
+  --first-color: #f7f7f7;
+  --second-color: #eeeeee;
+  --third-color: #474A56;
+  --fourth-color: #929aab;
+  --withForm: calc(400px + 1rem);
+  --borderRadius: 0.5rem
+}
 
-        display: flex;
-    z-index: 3;
-    min-height: 44px;
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
-    margin: 0 auto;
-    width: 638px;
-    width: auto;
-    max-width: 584px;
-*/
+
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+}
 
 header{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--first-color);
+}
+
+form{
+  margin-left: 1em;
 }
 
  #search {
-   width: 300px;
+   width: var(--withForm);
    height: 31px;
   color: #090808;
   border: 1px solid #dfe1e5;
-  border-radius: 3rem;
+  border-radius: var(--borderRadius);
   margin: 0 auto;
 }
 
@@ -40,31 +47,43 @@ header{
   box-shadow: 0 1px 6px rgba(32,33,36,.28);
   border-color: rgba(223,225,229,0);
   height: 31px;
-  border-radius: 3rem;
+  border-radius: var(--borderRadius);
 }
 hr {
-  color: white;
-  border: 1px solid #dfe1e5;
+  border: 1px solid var(--first-color);
 }
 
 #root{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  background-color: var(--second-color);
 }
 
 .box{
-  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 280px;/* flex-grow flex-shrink flex-basis*/
   padding: 10px;
-  border: 1px solid #dfe1e5;
-  border-radius: 0.5rem;
+  border: 1px solid var(--fourth-color);
+  border-radius: var(--borderRadius);
   margin: 0.75rem;
-}
-
-p{
-  background: #7cff6f;
+  background-color: white;
 }
 
 [class="avatar"]{
   width: 200px;
 }
+
+p{
+  background: transparent;
+  border-radius: var(--borderRadius);
+}
+
+footer{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--third-color);
+}
+
