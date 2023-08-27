@@ -1,9 +1,10 @@
 
 
-# Acerca de
+# Acerca de 
+## rick and morty api usan callbacks, promises y callback queue.
 
 Escribi una aplicacion cliente que tomara datos de una api y los dibujara en el navegador, todo esto sin node, librerias o frameworks.
-La idea principal es aplicar conocimientos sobre JS vanilla tales como **callbacks, closure, promises, callback queue,** nucleo JS 
+La idea principal es aplicar conocimientos sobre JS vanilla tales como **callbacks, promises, callback queue,** nucleo JS 
 
 ## Pila de Tecnologias
 
