@@ -9,12 +9,9 @@
   --second-color: #eeeeee;
   --third-color: #474A56;
   --fourth-color: #929aab;
-  --withForm: calc(400px + 1rem);
+  --withForm: calc(25em + 1rem);
   --borderRadius: 0.5rem
 }
-
-
-
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -22,6 +19,7 @@ body{
   font-weight: 400;
 }
 
+/* cabecera -----------------------------------------------------------*/
 header{
   display: flex;
   justify-content: center;
@@ -34,9 +32,9 @@ form{
   margin-left: 1em;
 }
 
- #search {
-   width: var(--withForm);
-   height: 31px;
+#search {
+  width: var(--withForm);
+  height: calc(var(--withForm) - 19.7rem);
   color: #090808;
   border: 1px solid #dfe1e5;
   border-radius: var(--borderRadius);
@@ -47,12 +45,15 @@ form{
   background-color: #fff;
   box-shadow: 0 1px 6px rgba(32,33,36,.28);
   border-color: rgba(223,225,229,0);
-  height: 31px;
+  height: calc(var(--withForm) - 19.7rem);
   border-radius: var(--borderRadius);
 }
+
 hr {
   border: 1px solid var(--fourth-color);
 }
+
+/*contenedor main----------------------------------------------------------------*/
 
 #root{
   display: flex;
@@ -62,11 +63,13 @@ hr {
   background-color: var(--second-color);
 }
 
+/* Tarjeta -----------------------------------------------------------------------*/
+
 .box{
   display: flex;
   flex-direction: column;
   flex: 1 1 280px;/* flex-grow flex-shrink flex-basis*/
-  padding: 10px;
+  padding: 0.110rem;
   border: 1px solid var(--fourth-color);
   border-radius: var(--borderRadius);
   margin: 0.75rem;
@@ -74,7 +77,8 @@ hr {
 }
 
 [class="avatar"]{
-  width: 200px;
+  width: 100%;
+  border-radius: var(--borderRadius);
 }
 
 p{
@@ -82,9 +86,11 @@ p{
   border-radius: var(--borderRadius);
 }
 
+/* footer -------------------------------------------------------*/
 footer{
   width: 100vw;
   height: 100vh;
   background-color: var(--third-color);
+  color:#929aab;
 }
 

@@ -1,12 +1,9 @@
 
 const url1 = 'https://jsonplaceholder.typicode.com/posts/1/comments';
-const url2 = 'https://rickandmortyapi.com/api/character';
+const url = 'https://rickandmortyapi.com/api/character';
 
-let response = await fetch(url2)
+let response = await fetch(url)
 let rik = await response.json(response)
-
-console.log(rik)
-
 export default rik;
 
 
