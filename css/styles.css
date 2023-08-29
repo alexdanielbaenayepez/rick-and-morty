@@ -55,7 +55,7 @@ hr {
 
 /*contenedor main----------------------------------------------------------------*/
 
-#root{overflow: hidden;
+#root{
   display: flex;
   gap: 1.5em;
   flex-wrap: wrap;
@@ -93,10 +93,14 @@ footer{
   color:var(--fourth-color)
 }
 
-@media only screen and(max-width: 740px){
+@media only screen and (max-width: 600px){
+
+  #root{
+    padding: initial;
+  }
+
   .box{
-    width: 100%;
-    flex: 0 0 auto;
+    width: 90%;
   }
 
   header{
