@@ -55,7 +55,7 @@ hr {
 
 /*contenedor main----------------------------------------------------------------*/
 
-#root{
+#root{overflow: hidden;
   display: flex;
   gap: 1.5em;
   flex-wrap: wrap;
@@ -73,14 +73,6 @@ hr {
   border: 1px solid var(--fourth-color);
   border-radius: var(--borderRadius);
   background-color: white;
-  /*
-  --width: 16;
-    --gap-constant: 0.3%;
-	--initialbasis: calc(var(--width, 0) / var(--columns, 16) * 100%);
-    --gap: calc((var(--columns, 16) - var(--width, 0)) * var(--gap-constant, 0.3%));
-	flex-basis: calc(var(--initialbasis) - var(--gap));
-  */
-
 }
 
 [class="avatar"]{
@@ -101,9 +93,9 @@ footer{
   color:var(--fourth-color)
 }
 
-@media only screen and(max-width: 480px){
+@media only screen and(max-width: 740px){
   .box{
-    width: 90%;
+    width: 100%;
     flex: 0 0 auto;
   }
 
@@ -113,6 +105,6 @@ footer{
   }
 
   form{
-    padding-bottom: 20px;
+    display: none;
   }
 }

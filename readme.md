@@ -60,13 +60,10 @@ export default rik;
 ````
 ````css
 .box{
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 280px;/* flex-grow flex-shrink flex-basis*/
-  padding: 0.110rem;
+  width: 20%;
+  flex: 0 0 18em;
   border: 1px solid var(--fourth-color);
   border-radius: var(--borderRadius);
-  margin: 0.75rem;
   background-color: white;
 }
 ````
