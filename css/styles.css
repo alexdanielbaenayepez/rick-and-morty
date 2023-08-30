@@ -70,6 +70,7 @@ hr {
   justify-content: center;
   background-color: var(--second-color);
   padding:10px 10px ;
+  color: var(--third-color)
 }
 
 /* Tarjeta -----------------------------------------------------------------------*/
@@ -87,9 +88,12 @@ hr {
   border-radius: var(--borderRadius);
 }
 
-p{
-  background: transparent;
-  border-radius: var(--borderRadius);
+h2, p{
+  margin-left: 10px;
+}
+
+.margin-bottom{
+  margin-bottom: 10px;
 }
 
 /* footer -------------------------------------------------------*/

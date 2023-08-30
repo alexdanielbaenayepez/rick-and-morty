@@ -25,6 +25,7 @@ import rik from "./module.mjs";
 
       var descripcion = document.createElement('p')
           descripcion.innerText = 'Type: ' + rik.results[i].type;
+          descripcion.className= 'margin-bottom'
 
       box.appendChild(containerImagen)
       box.appendChild(hr)
