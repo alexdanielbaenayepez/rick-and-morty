@@ -95,10 +95,6 @@ footer{
 
 @media only screen and (max-width: 600px){
 
-  #root{
-    padding: initial;
-  }
-
   .box{
     width: 90%;
   }
