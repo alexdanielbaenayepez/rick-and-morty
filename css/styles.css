@@ -124,5 +124,11 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
+    padding: 15px;
+
+  }
+  #submit{
+    display: none;
   }
 }
