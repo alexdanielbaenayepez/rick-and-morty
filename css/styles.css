@@ -33,6 +33,7 @@ a, .text-logo {
   line-height: 0.5;
   font-size: 0.9em;
   text-decoration: none;
+  color: var(--third-color)
 }
 
 form{
