@@ -28,6 +28,13 @@ header{
   padding-top: 1em;
 }
 
+a, .text-logo {
+  margin-bottom: 16px;
+  line-height: 0.5;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
 form{
   margin-left: 1em;
 }
