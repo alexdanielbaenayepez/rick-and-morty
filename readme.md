@@ -69,3 +69,7 @@ export default rik;
 ````
 
 ![Imgur](https://i.imgur.com/AB3mvJdl.png)
+
+
+
+printOperationsArray budcar esto en react devtools backend compact

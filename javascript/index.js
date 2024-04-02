@@ -1,6 +1,5 @@
 import rik from "./module.mjs";
 
-    var root = document.getElementById("root");
 
     for (var i = 0; rik.results.length; i++){
 
@@ -8,7 +7,7 @@ import rik from "./module.mjs";
       box.className= 'box';
 
       var containerImagen = document.createElement('div')
-      containerImagen.className = "containerImagen"
+      containerImagen.className = "containerImagen",
       containerImagen.style.textAlign = "center";
       var avatar = document.createElement("img")
       avatar.src = rik.results[i].image
@@ -36,14 +35,18 @@ import rik from "./module.mjs";
       root.appendChild(box);
 
     }
-
   //------------------------------------------------------------------------
 
-  document.getElementById("submit").addEventListener('keyup', function (e, root) {
+  document.getElementById("submit").addEventListener('click', function () {
     var input = document.getElementById("search").value;
-    root.innerHTML(input)
-
+    console.log(input)
+    enviarAlDom(input)
     //el evento onchonge tiene que ver con la actualizacion de los datos de entrada en el input
     // https://es.javascript.info/events-change-input
   })
+
+function enviarAlDom(input) {
+  var root = document.getElementById("root");
+  root.innerText = input
+}
 
